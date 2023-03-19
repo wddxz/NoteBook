@@ -733,4 +733,28 @@
 ![1678794891446](image/1678794891446.png)
 ![1678794905931](image/1678794905931.png)
 
+### 1.16. 注释标签和特殊字符
 
+#### 1.16.1. 源码
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 我想喝手磨咖啡 -->
+    讲    究
+    <!-- <p> 是一个段落标签 -->
+     < p  >   是一个段落标签
+</body> 
+</html>
+```
+
+#### 1.16.2. 页面渲染图
+
+![1678794919535](image/1678794919535.png)
