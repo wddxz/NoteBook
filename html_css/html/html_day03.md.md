@@ -501,11 +501,40 @@
 
 #### 1- 16  源码
 
-
+```html
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>css文本外观之装饰文本</title>
+    <style>
+        div{
+            /*下划线*/
+            /*text-decoration:underline ;*/
+            /*删除线*/
+            /*text-decoration:line-through ;*/
+            /*上划线*/
+            text-decoration: overline;
+        }
+        a{
+            text-decoration: none;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<div>阳光下的星星</div>
+<a href="#">最幸运的幸运</a>
+</body>
+</html>
+```
 
 #### 1- 16 页面渲染
 
-
+![image-20230322165209788](C:\Users\Administrator\AppData\Roaming\Typora\typora-user-images\image-20230322165209788.png)
 
 ### 17_CSS文本外观之文本缩进
 
